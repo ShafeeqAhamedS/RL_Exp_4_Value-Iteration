@@ -1,4 +1,4 @@
-# VALUE ITERATION ALGORITHM
+# <p align="center">VALUE ITERATION ALGORITHM</p>
 
 ## AIM
 To develop a Python program to find the optimal policy for the given MDP using the value iteration algorithm.
@@ -36,10 +36,14 @@ This uncertainty adds complexity to the agent's navigation.
 The episode terminates when the agent reaches the goal state (G) or falls into a hole (H).
 
 ### Graphical Representation
-
+<img src="https://github.com/ShafeeqAhamedS/RL_Exp_4_Value-Iteration/assets/93427237/cd014ae8-4bb3-45f6-838d-b39d4ef80582">
 
 ## VALUE ITERATION ALGORITHM
-Value iteration is a method of computing an optimal MDP policy and its value. It begins with an initial guess for the value function, and iteratively updates it towards the optimal value function, according to the Bellman optimality equation. The algorithm is guaranteed to converge to the optimal value function, and in the process of doing so, also converges to the optimal policy.
+ - Value iteration is a method of computing an optimal MDP policy and its value.
+ - It begins with an initial guess for the value function, and iteratively updates it towards the optimal value function, according to the Bellman optimality equation. 
+  - The algorithm is guaranteed to converge to the optimal value function, and in the process of doing so, also converges to the optimal policy.
+
+</br></br></br></br></br></br></br></br></br>
 
 The algorithm is as follows:
 1. Initialize the value function V(s) arbitrarily for all states s.
@@ -86,6 +90,7 @@ def value_iteration(P, gamma=1.0, theta=1e-10):
 ```
 
 ## OUTPUT:
+<img src="https://github.com/ShafeeqAhamedS/RL_Exp_4_Value-Iteration/assets/93427237/151c68cb-451a-4773-817b-bbfd11e049a4">
 
 ## RESULT:
 Thus, a Python program is developed to find the optimal policy for the given MDP using the value iteration algorithm.
